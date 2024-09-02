@@ -1,1 +1,74 @@
-prueba
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nblibraries.properties
+
+# NetBeans git ignore specific files
+**/nbproject/private/**
+
+# Virtual machine crash logs
+hs_err_pid*
+
+# Maven files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle files
+.gradle/
+build/
+
+# Eclipse files
+.project
+.classpath
+.cproject
+.settings/
+.bak
+.recommenders/
+
+# IDEA files
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code files
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux files
+*~
+
+# Other generated files
