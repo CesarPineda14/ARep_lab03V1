@@ -25,7 +25,7 @@ nblibraries.properties
 # NetBeans git ignore specific files
 **/nbproject/private/**
 
-# Virtual machine crash logs
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
 # Maven files
@@ -72,3 +72,40 @@ Desktop.ini
 *~
 
 # Other generated files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Java artifacts
+*.jar
+*.war
+*.ear
+*.javadoc/
+
+# Ignore classpath file
+.classpath
+
+# Ignore environment config
+.env
+.env.local
+.env.*.local
+
+# Application-specific files
+config/*.json
+config/*.xml
+
+# Exclude all files except src/ and resources/
+*
+!/src/
+!/resources/
+
+# Exclude build artifacts in target/ folder
+target/
+
+# Ignore JetBrains IDEs .idea/ folder and misc.xml file
+.idea/
+.idea/misc.xml
+.idea/modules.xml
+*.iml
