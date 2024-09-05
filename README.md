@@ -89,7 +89,7 @@ El uso de reflexión permite que el servidor descubra y ejecute métodos anotado
 
      ```
 
-       Este controlador maneja solicitudes GET a la ruta /greeting y acepta un parámetro name, que por defecto es         "World" si no se proporciona.
+       Este controlador maneja solicitudes GET a la ruta /greeting y acepta un parámetro name, que por defecto es "World" si no se proporciona.
 
 * Clase Principal: SpringECI
       ```
@@ -123,8 +123,9 @@ El uso de reflexión permite que el servidor descubra y ejecute métodos anotado
 
 2. Prueba de Parámetro por Defecto
    Se hizo una solicitud GET a /greeting sin pasar el parámetro name, y se verificó que el servidor responde con "Hola, World!".
+   
    ![image](https://github.com/user-attachments/assets/f34707fd-e012-4658-af87-2ab9db624f6a)
 
-3. Prueba de Clase Anotada Dinámicamente
+4. Prueba de Clase Anotada Dinámicamente
 Se cargó un POJO con la anotación @RestController desde la línea de comandos y se comprobó que los métodos con @GetMapping eran detectados y mapeados correctamente.
   
