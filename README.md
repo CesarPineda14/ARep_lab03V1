@@ -35,7 +35,7 @@ El uso de reflexión permite que el servidor descubra y ejecute métodos anotado
 
   1. Clonar el repositorio:
      ```
-        git clone https://github.com/CesarPineda14/Arep_LAb02.git
+        git clone https://github.com/CesarPineda14/ARep_lab03V1.git
 
      ```
   2. Navegar a la carpeta del proyecto:
@@ -119,8 +119,12 @@ El uso de reflexión permite que el servidor descubra y ejecute métodos anotado
   
 1. Prueba de Respuesta HTTP 200
    Se realizó una solicitud GET a la ruta /greeting?name=John y se verificó que el servidor devuelve el saludo esperado con el código de estado 200 (OK).
+   ![image](https://github.com/user-attachments/assets/0a9f370a-452b-415e-84f9-b4f0a73843f2)
+
 2. Prueba de Parámetro por Defecto
    Se hizo una solicitud GET a /greeting sin pasar el parámetro name, y se verificó que el servidor responde con "Hola, World!".
+   ![image](https://github.com/user-attachments/assets/f34707fd-e012-4658-af87-2ab9db624f6a)
+
 3. Prueba de Clase Anotada Dinámicamente
 Se cargó un POJO con la anotación @RestController desde la línea de comandos y se comprobó que los métodos con @GetMapping eran detectados y mapeados correctamente.
   
